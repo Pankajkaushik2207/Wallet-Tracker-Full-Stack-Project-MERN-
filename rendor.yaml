@@ -1,0 +1,10 @@
+version: 2
+services:
+  backend:
+    build:
+      commands:
+        - npm install
+        - npm run build
+    run:
+      commands:
+        - npm start
